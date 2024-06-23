@@ -1,0 +1,11 @@
+Items: {
+	ExampleSignItem: {
+		DisplayName: Example Sign Item
+		Tooltip: ""
+	}
+
+	ExampleBigSignItem: {
+		DisplayName: Example Big Sign Item
+		Tooltip: ""
+	}
+}

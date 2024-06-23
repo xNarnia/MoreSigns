@@ -1,0 +1,3 @@
+displayName = More Signs
+author = Narnia
+version = 0.1
