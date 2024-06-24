@@ -9,3 +9,10 @@ Items: {
 		Tooltip: ""
 	}
 }
+
+Tiles: {
+	ExampleSign: {
+		DefaultSignText: Mods.MoreSigns.Tiles.ExampleSign.DefaultSignText
+		MapEntry: Example Sign
+	}
+}

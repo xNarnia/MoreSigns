@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
+﻿using Terraria.DataStructures;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Terraria;
@@ -12,118 +7,69 @@ using Terraria.Enums;
 using Terraria.Localization;
 using Terraria.ID;
 using Terraria.GameContent.ObjectInteractions;
+using MoreSigns.Items;
+using Terraria.Chat;
 
 namespace MoreSigns.Tiles
 {
 	public class ExampleSign : ModTile
-	{
-		public override void SetStaticDefaults()
-		{
-			// Credits to Dark;Light for finding this flag
-			// Keep in mind that the max amount of signs is 1000 (the size of the tileSign array)
-			// The Main.tileSign flag will do the following:
-			//  *Automatically manages the sign for the specified tile
-			//   -Adds a right-click to the tile to bring up an edit sign window
-			//   -Allows editing of the sign text
-			//   -Saves and loads sign data to world file
-			Main.tileSign[Type] = true;
+    {
+        public static LocalizedText DefaultSignText { get; private set; }
+
+        public override void SetStaticDefaults()
+        {
+            Main.tileSign[Type] = true;
 			Main.tileFrameImportant[Type] = true;
 			Main.tileLavaDeath[Type] = true;
+            TileID.Sets.DisableSmartCursor[Type] = true;
+            AdjTiles = new int[] { Type };
 
-			// Use a 2x2 style as our foundation
-			TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
+            // Use the vanilla sign style as our foundation.
+            TileObjectData.newTile.CopyFrom(TileObjectData.GetTileData(TileID.Signs, 0));
 
-			// Allow hanging from ceilings
-			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
-			TileObjectData.newAlternate.StyleHorizontal = true;
-			TileObjectData.newAlternate.AnchorAlternateTiles = new int[] { 124 };
-			TileObjectData.newAlternate.Origin = new Point16(0, 0);
-			TileObjectData.newAlternate.AnchorLeft = AnchorData.Empty;
-			TileObjectData.newAlternate.AnchorRight = AnchorData.Empty;
-			TileObjectData.newAlternate.AnchorTop = new AnchorData(AnchorType.SolidTile | AnchorType.SolidBottom, TileObjectData.newTile.Width, 0);
-			TileObjectData.newAlternate.AnchorBottom = AnchorData.Empty;
-			TileObjectData.addAlternate(1);
+            // Implement fixes for two of the five styles from the Vanilla Sign TileObjectData.
+            // Fix Vanilla TileObjectData: Allow attaching sign to the ground by changing origin.
+            TileObjectData.newSubTile.CopyFrom(TileObjectData.newTile);
+            TileObjectData.newSubTile.Origin = new Point16(0, 0);
+            TileObjectData.addSubTile(0);
 
-			// Allow attaching to a solid object that is to the left of the sign
-			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
-			TileObjectData.newAlternate.StyleHorizontal = true;
-			TileObjectData.newAlternate.AnchorAlternateTiles = new int[] { 124 };
-			TileObjectData.newAlternate.Origin = new Point16(0, 0);
-			TileObjectData.newAlternate.AnchorLeft = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide | AnchorType.Tree, TileObjectData.newTile.Width, 0);
-			TileObjectData.newAlternate.AnchorBottom = AnchorData.Empty;
-			TileObjectData.addAlternate(2);
+            // Fix Vanilla TileObjectData: Allow attaching to a solid object that is to the right of the sign.
+            TileObjectData.newSubTile.CopyFrom(TileObjectData.newTile);
+			TileObjectData.newSubTile.Origin = new Point16(0, 0);
+            TileObjectData.newSubTile.AnchorBottom = AnchorData.Empty;
+            TileObjectData.addSubTile(3);
+            TileObjectData.addTile(Type);
 
-			// Allow attaching to a solid object that is to the right of the sign
-			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
-			TileObjectData.newAlternate.StyleHorizontal = true;
-			TileObjectData.newAlternate.AnchorAlternateTiles = new int[] { 124 };
-			TileObjectData.newAlternate.Origin = new Point16(0, 0);
-			TileObjectData.newAlternate.AnchorRight = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide | AnchorType.Tree, TileObjectData.newTile.Width, 0);
-			TileObjectData.newAlternate.AnchorBottom = AnchorData.Empty;
-			TileObjectData.addAlternate(3);
+            RegisterItemDrop(ModContent.ItemType<ExampleSignItem>());
 
-			// Allow attaching to a wall behind the sign
-			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
-			TileObjectData.newAlternate.StyleHorizontal = true;
-			TileObjectData.newAlternate.AnchorAlternateTiles = new int[] { 124 };
-			TileObjectData.newAlternate.Origin = new Point16(0, 0);
-			TileObjectData.newAlternate.AnchorWall = true;
-			TileObjectData.newAlternate.AnchorBottom = AnchorData.Empty;
-			TileObjectData.addAlternate(4);
-
-			// Allow attaching sign to the ground
-			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
-			TileObjectData.newAlternate.StyleHorizontal = true;
-			TileObjectData.newAlternate.AnchorAlternateTiles = new int[] { 124 };
-			TileObjectData.newAlternate.Origin = new Point16(0, 0);
-			TileObjectData.addAlternate(5);
-			TileObjectData.addTile(Type);
-
-			AddMapEntry(new Color(200, 200, 200), Language.GetText("ItemName.ExampleSign"));
-			TileID.Sets.DisableSmartCursor[Type] = true;
-			AdjTiles = new int[] { Type };
-		}
-
-		public override bool HasSmartInteract(int i, int j, SmartInteractScanSettings settings)
-		{
-			return true;
-		}
+            LocalizedText name = CreateMapEntryName();
+            AddMapEntry(new Color(200, 200, 200), name);
+            DefaultSignText ??= this.GetLocalization("DefaultSignText");
+        }
 
 		public override void PlaceInWorld(int i, int j, Item item)
-		{
-			Main.sign[Sign.ReadSign(i, j, true)].text = "Type in a command, right-click sign to activate it!";
+        {
+            // When the third param is true, ReadSign() initializes a new Sign object and returns an ID.
+            // The ID is the array index for our new Sign in the Main.sign[] array.
+            // Note: The max amount of signs in a world is 1000 (the size of the tileSign array).
+            int signId = Sign.ReadSign(i, j, true);
+
+            Main.sign[signId].text = DefaultSignText.Value;
 		}
 
 		public override bool RightClick(int i, int j)
 		{
-			// Uses the text from the sign to run a command
-			Main.ExecuteCommand(Main.sign[Sign.ReadSign(i, j, true)].text, new ExampleCommandCaller());
+			int signId = Sign.ReadSign(i, j);
+			string signText = Main.sign[signId].text;
+            
+			ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral(signText), Color.White);
 			return true;
-		}
-
-		public override void NumDust(int i, int j, bool fail, ref int num)
-		{
-			num = fail ? 1 : 3;
 		}
 
 		public override void KillMultiTile(int i, int j, int frameX, int frameY)
 		{
-			Sign.KillSign(i, j);
+			// Use internal method to destroy associated Sign data.
+            Sign.KillSign(i, j);
 		}
-
-		// When a command is finished executing, it will return the output of the command
-		// via the Reply method. Console commands do not return output, only ModCommands
-		public class ExampleCommandCaller : CommandCaller
-		{
-			public CommandType CommandType => CommandType.Console;
-
-			public Player Player => null;
-
-			public void Reply(string text, Color color = default(Color))
-			{
-				foreach (string value in text.Split(new char[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries))
-					Main.NewText(value);
-			}
-		}
-	}
+	}	
 }
