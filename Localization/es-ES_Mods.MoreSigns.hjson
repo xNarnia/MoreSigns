@@ -1,46 +1,46 @@
 Items: {
 	BorealWoodSignItem: {
-		DisplayName: Boreal Wood Sign
+		DisplayName: Cartel de madera boreal
 		Tooltip: ""
 	}
 
 	CopperSignItem: {
-		DisplayName: Copper Sign
+		DisplayName: Cartel de cobre
 		Tooltip: ""
 	}
 
 	GoldSignItem: {
-		DisplayName: Gold Sign
+		DisplayName: Cartel de oro
 		Tooltip: ""
 	}
 
 	IronSignItem: {
-		DisplayName: Iron Sign
+		DisplayName: Cartel de hierro
 		Tooltip: ""
 	}
 
 	PalmWoodSignItem: {
-		DisplayName: Palm Wood Sign
+		DisplayName: Cartel de madera de palmera
 		Tooltip: ""
 	}
 
 	RichMahoganySignItem: {
-		DisplayName: Rich Mahogany Sign
+		DisplayName: Cartel de caoba rica
 		Tooltip: ""
 	}
 
 	SilverSignItem: {
-		DisplayName: Silver Sign
+		DisplayName: Cartel de plata
 		Tooltip: ""
 	}
 
 	CactusSignItem: {
-		DisplayName: Cactus Sign
+		DisplayName: Cartel de cactus
 		Tooltip: ""
 	}
 
 	DirtSignItem: {
-		DisplayName: Dirt Sign
+		DisplayName: Cartel de tierra
 		Tooltip: ""
 	}
 }

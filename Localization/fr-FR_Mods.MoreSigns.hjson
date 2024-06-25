@@ -1,46 +1,46 @@
 Items: {
 	BorealWoodSignItem: {
-		DisplayName: Boreal Wood Sign
+		DisplayName: Panneau en bois boréal
 		Tooltip: ""
 	}
 
 	CopperSignItem: {
-		DisplayName: Copper Sign
+		DisplayName: Panneau en cuivre
 		Tooltip: ""
 	}
 
 	GoldSignItem: {
-		DisplayName: Gold Sign
+		DisplayName: Panneau en gold
 		Tooltip: ""
 	}
 
 	IronSignItem: {
-		DisplayName: Iron Sign
+		DisplayName: Panneau en fer
 		Tooltip: ""
 	}
 
 	PalmWoodSignItem: {
-		DisplayName: Palm Wood Sign
+		DisplayName: Panneau en palmier
 		Tooltip: ""
 	}
 
 	RichMahoganySignItem: {
-		DisplayName: Rich Mahogany Sign
+		DisplayName: Panneau en acajou riche
 		Tooltip: ""
 	}
 
 	SilverSignItem: {
-		DisplayName: Silver Sign
+		DisplayName: Panneau en argent
 		Tooltip: ""
 	}
 
 	CactusSignItem: {
-		DisplayName: Cactus Sign
+		DisplayName: Panneau en cactus
 		Tooltip: ""
 	}
 
 	DirtSignItem: {
-		DisplayName: Dirt Sign
+		DisplayName: Panneau en terre
 		Tooltip: ""
 	}
 }

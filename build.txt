@@ -1,6 +1,7 @@
 displayName = More Signs
 author = Narnia
-version = 0.1
-includeSource=true
-includePDB=true
-buildIgnore=.git/,.vs/,.bin/, src/
+version = 0.1.1
+homepage = https://steamcommunity.com/sharedfiles/filedetails/?id=3275032535
+includeSource = true
+includePDB = true
+buildIgnore = .git/,.vs/,.bin/, src/

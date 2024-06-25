@@ -1,46 +1,46 @@
-Items: {
+﻿Items: {
 	BorealWoodSignItem: {
-		DisplayName: Boreal Wood Sign
+		DisplayName: Drewna borealnego znak
 		Tooltip: ""
 	}
 
 	CopperSignItem: {
-		DisplayName: Copper Sign
+		DisplayName: Miedziany znak
 		Tooltip: ""
 	}
 
 	GoldSignItem: {
-		DisplayName: Gold Sign
+		DisplayName: Złoty znak
 		Tooltip: ""
 	}
 
 	IronSignItem: {
-		DisplayName: Iron Sign
+		DisplayName: Żelazny znak
 		Tooltip: ""
 	}
 
 	PalmWoodSignItem: {
-		DisplayName: Palm Wood Sign
+		DisplayName: Drewna palmowego znak
 		Tooltip: ""
 	}
 
 	RichMahoganySignItem: {
-		DisplayName: Rich Mahogany Sign
+		DisplayName: Mahoniowy znak
 		Tooltip: ""
 	}
 
 	SilverSignItem: {
-		DisplayName: Silver Sign
+		DisplayName: Srebrny znak
 		Tooltip: ""
 	}
 
 	CactusSignItem: {
-		DisplayName: Cactus Sign
+		DisplayName: Kaktusowe znak
 		Tooltip: ""
 	}
 
 	DirtSignItem: {
-		DisplayName: Dirt Sign
+		DisplayName: Ziemi znak
 		Tooltip: ""
 	}
 }

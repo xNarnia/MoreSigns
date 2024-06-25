@@ -1,0 +1,11 @@
+[h1]More Signs![/h1]
+Add brand new signs based on vanilla tiles to your game!
+
+This mod is open-source. Check it out!
+* [url=https://discord.gg/xAQGT4VetN]Discord Support Server[/url]
+* [url=https://github.com/xNarnia/MoreSigns]Source Code[/url]
+
+Credits:
+- cz43: He created the Iron Sign. Used as a base for recolors for other metal signs. Thanks!
+
+[img]https://imgur.com/wwdzMQF.gif[/img]

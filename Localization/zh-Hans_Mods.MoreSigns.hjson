@@ -1,46 +1,46 @@
-Items: {
+﻿Items: {
 	BorealWoodSignItem: {
-		DisplayName: Boreal Wood Sign
+		DisplayName: 针叶木标牌
 		Tooltip: ""
 	}
 
 	CopperSignItem: {
-		DisplayName: Copper Sign
+		DisplayName: 铜标牌
 		Tooltip: ""
 	}
 
 	GoldSignItem: {
-		DisplayName: Gold Sign
+		DisplayName: 金标牌
 		Tooltip: ""
 	}
 
 	IronSignItem: {
-		DisplayName: Iron Sign
+		DisplayName: 铁标牌
 		Tooltip: ""
 	}
 
 	PalmWoodSignItem: {
-		DisplayName: Palm Wood Sign
+		DisplayName: 棕榈木标牌
 		Tooltip: ""
 	}
 
 	RichMahoganySignItem: {
-		DisplayName: Rich Mahogany Sign
+		DisplayName: 红木标牌
 		Tooltip: ""
 	}
 
 	SilverSignItem: {
-		DisplayName: Silver Sign
+		DisplayName: 银标牌
 		Tooltip: ""
 	}
 
 	CactusSignItem: {
-		DisplayName: Cactus Sign
+		DisplayName: 仙人掌标牌
 		Tooltip: ""
 	}
 
 	DirtSignItem: {
-		DisplayName: Dirt Sign
+		DisplayName: 土标牌
 		Tooltip: ""
 	}
 }

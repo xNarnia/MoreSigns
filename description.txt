@@ -1,1 +1,5 @@
-Modify this file with a description of your mod.
+> More Signs! <
+
+Add brand new signs based on vanilla tiles to your game!
+This mod is open-source. Check it out on GitHub!
+https://github.com/xNarnia/MoreSigns

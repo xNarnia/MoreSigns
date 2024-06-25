@@ -1,0 +1,46 @@
+﻿Items: {
+	BorealWoodSignItem: {
+		DisplayName: заснеженной древесины Знак
+		Tooltip: ""
+	}
+
+	CopperSignItem: {
+		DisplayName: Медный Знак
+		Tooltip: ""
+	}
+
+	GoldSignItem: {
+		DisplayName: Золотой Знак
+		Tooltip: ""
+	}
+
+	IronSignItem: {
+		DisplayName: Железный Знак
+		Tooltip: ""
+	}
+
+	PalmWoodSignItem: {
+		DisplayName: пальмовой древесины Знак
+		Tooltip: ""
+	}
+
+	RichMahoganySignItem: {
+		DisplayName: красной древесины Знак
+		Tooltip: ""
+	}
+
+	SilverSignItem: {
+		DisplayName: Серебряный Знак
+		Tooltip: ""
+	}
+
+	CactusSignItem: {
+		DisplayName: Кактусовый Знак
+		Tooltip: ""
+	}
+
+	DirtSignItem: {
+		DisplayName: Земля Знак
+		Tooltip: ""
+	}
+}
