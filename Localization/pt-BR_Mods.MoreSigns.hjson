@@ -43,4 +43,14 @@ Items: {
 		DisplayName: Aviso de Terra
 		Tooltip: ""
 	}
+
+	WoodSignSwordItem: {
+		// DisplayName: Wood Sign Sword Item
+		// Tooltip: ""
+	}
+
+	WoodSignUpItem: {
+		// DisplayName: Wood Sign Up Item
+		// Tooltip: ""
+	}
 }

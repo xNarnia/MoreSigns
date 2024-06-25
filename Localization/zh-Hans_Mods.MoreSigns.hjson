@@ -1,4 +1,4 @@
-﻿Items: {
+Items: {
 	BorealWoodSignItem: {
 		DisplayName: 针叶木标牌
 		Tooltip: ""
@@ -42,5 +42,15 @@
 	DirtSignItem: {
 		DisplayName: 土标牌
 		Tooltip: ""
+	}
+
+	WoodSignSwordItem: {
+		// DisplayName: Wood Sign Sword Item
+		// Tooltip: ""
+	}
+
+	WoodSignUpItem: {
+		// DisplayName: Wood Sign Up Item
+		// Tooltip: ""
 	}
 }

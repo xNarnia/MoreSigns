@@ -1,6 +1,6 @@
 Items: {
 	BorealWoodSignItem: {
-		DisplayName: Panneau en bois boréal
+		DisplayName: Panneau en bois borï¿½al
 		Tooltip: ""
 	}
 
@@ -42,5 +42,15 @@ Items: {
 	DirtSignItem: {
 		DisplayName: Panneau en terre
 		Tooltip: ""
+	}
+
+	WoodSignSwordItem: {
+		// DisplayName: Wood Sign Sword Item
+		// Tooltip: ""
+	}
+
+	WoodSignUpItem: {
+		// DisplayName: Wood Sign Up Item
+		// Tooltip: ""
 	}
 }

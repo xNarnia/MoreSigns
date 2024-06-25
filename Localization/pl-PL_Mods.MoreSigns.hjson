@@ -1,4 +1,4 @@
-﻿Items: {
+Items: {
 	BorealWoodSignItem: {
 		DisplayName: Drewna borealnego znak
 		Tooltip: ""
@@ -42,5 +42,15 @@
 	DirtSignItem: {
 		DisplayName: Ziemi znak
 		Tooltip: ""
+	}
+
+	WoodSignSwordItem: {
+		// DisplayName: Wood Sign Sword Item
+		// Tooltip: ""
+	}
+
+	WoodSignUpItem: {
+		// DisplayName: Wood Sign Up Item
+		// Tooltip: ""
 	}
 }

@@ -43,4 +43,14 @@ Items: {
 		DisplayName: Cartello di terra
 		Tooltip: ""
 	}
+
+	WoodSignSwordItem: {
+		// DisplayName: Wood Sign Sword Item
+		// Tooltip: ""
+	}
+
+	WoodSignUpItem: {
+		// DisplayName: Wood Sign Up Item
+		// Tooltip: ""
+	}
 }
