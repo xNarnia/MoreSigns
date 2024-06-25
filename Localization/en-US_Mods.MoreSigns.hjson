@@ -1,11 +1,46 @@
 Items: {
-	ExampleSignItem: {
-		DisplayName: Example Sign Item
+	BorealWoodSignItem: {
+		DisplayName: Boreal Wood Sign
 		Tooltip: ""
 	}
 
-	ExampleBigSignItem: {
-		DisplayName: Example Big Sign Item
+	CopperSignItem: {
+		DisplayName: Copper Sign
+		Tooltip: ""
+	}
+
+	GoldSignItem: {
+		DisplayName: Gold Sign
+		Tooltip: ""
+	}
+
+	IronSignItem: {
+		DisplayName: Iron Sign
+		Tooltip: ""
+	}
+
+	PalmWoodSignItem: {
+		DisplayName: Palm Wood Sign
+		Tooltip: ""
+	}
+
+	RichMahoganySignItem: {
+		DisplayName: Rich Mahogany Sign
+		Tooltip: ""
+	}
+
+	SilverSignItem: {
+		DisplayName: Silver Sign
+		Tooltip: ""
+	}
+
+	CactusSignItem: {
+		DisplayName: Cactus Sign
+		Tooltip: ""
+	}
+
+	DirtSignItem: {
+		DisplayName: Dirt Sign
 		Tooltip: ""
 	}
 }

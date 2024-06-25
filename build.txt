@@ -1,3 +1,6 @@
 displayName = More Signs
 author = Narnia
 version = 0.1
+includeSource=true
+includePDB=true
+buildIgnore=.git/,.vs/,.bin/, src/
