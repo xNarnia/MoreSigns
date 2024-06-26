@@ -1,5 +1,6 @@
 [h1]More Signs![/h1]
 Add brand new signs based on vanilla tiles to your game!
+[b]Show support by subscribing, liking, and favoriting this mod![/b]
 
 This mod is open-source. Check it out!
 * [url=https://discord.gg/xAQGT4VetN]Discord Support Server[/url]
@@ -9,4 +10,4 @@ Credits:
 - cz43: He created the Iron Sign. Used as a base for recolors for other metal signs. Thanks!
 
 [img]https://imgur.com/wwdzMQF.gif[/img]
-[img]https://imgur.com/5UCg1gq.png[/img]
+[img]https://imgur.com/9pKjhav.png[/img]

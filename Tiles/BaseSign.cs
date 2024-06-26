@@ -25,37 +25,50 @@ namespace MoreSigns.Tiles
 
 		public override void SetStaticDefaults()
 		{
+			// All StaticDefaults provided by ExampleSign from the tModLoader repo
+			// https://github.com/tModLoader/tModLoader/blob/1.4.4/ExampleMod/Content/Tiles/ExampleSign.cs
 			Main.tileSign[Type] = true;
 			Main.tileFrameImportant[Type] = true;
 			Main.tileLavaDeath[Type] = true;
 			TileID.Sets.DisableSmartCursor[Type] = true;
-			AdjTiles = new int[] { Type };
+			TileID.Sets.FramesOnKillWall[Type] = true;
+			TileID.Sets.AvoidedByNPCs[Type] = true;
+			TileID.Sets.TileInteractRead[Type] = true;
+			TileID.Sets.InteractibleByNPCs[Type] = true;
 
-			// Use the vanilla sign style as our foundation.
-			TileObjectData.newTile.CopyFrom(TileObjectData.GetTileData(TileID.Signs, 0));
+			TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
+			TileObjectData.newTile.StyleHorizontal = true;
+			TileObjectData.newTile.StyleMultiplier = 5; 
+			TileObjectData.newTile.AnchorBottom = AnchorData.Empty; 
 
-			// Implement fixes for two of the five styles from the Vanilla Sign TileObjectData.
-			// Fix Vanilla TileObjectData: Allow attaching sign to the ground by changing origin.
-			TileObjectData.newSubTile.CopyFrom(TileObjectData.newTile);
-			TileObjectData.newSubTile.Origin = new Point16(0, 0);
-			TileObjectData.addSubTile(0);
+			AnchorData SolidOrSolidSideAnchor2TilesLong = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide, 2, 0);
 
-			// Fix Vanilla TileObjectData: Allow attaching to a solid object that is to the right of the sign.
-			TileObjectData.newSubTile.CopyFrom(TileObjectData.newTile);
-			TileObjectData.newSubTile.Origin = new Point16(0, 0);
-			TileObjectData.newSubTile.AnchorBottom = AnchorData.Empty;
-			TileObjectData.addSubTile(3);
+			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+			TileObjectData.newAlternate.AnchorBottom = new AnchorData(AnchorType.SolidTile | AnchorType.SolidWithTop | AnchorType.Table | AnchorType.SolidSide, 2, 0); ;
+			TileObjectData.addAlternate(0); // Due to a bug in TileLoader.CheckModTile, we need a separate alternate for the normal placement
+
+			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+			TileObjectData.newAlternate.Origin = Point16.Zero;
+			TileObjectData.newAlternate.AnchorTop = SolidOrSolidSideAnchor2TilesLong;
+			TileObjectData.addAlternate(1);
+
+			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+			TileObjectData.newAlternate.Origin = Point16.Zero;
+			TileObjectData.newAlternate.AnchorLeft = SolidOrSolidSideAnchor2TilesLong;
+			TileObjectData.addAlternate(2);
+
+			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+			TileObjectData.newAlternate.Origin = new Point16(1, 0);
+			TileObjectData.newAlternate.AnchorRight = SolidOrSolidSideAnchor2TilesLong;
+			TileObjectData.addAlternate(3);
+
+			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+			TileObjectData.newAlternate.Origin = Point16.Zero;
+			TileObjectData.newAlternate.AnchorWall = true;
+			TileObjectData.addAlternate(4);
+
+			TileObjectData.newTile.AnchorBottom = SolidOrSolidSideAnchor2TilesLong; 
 			TileObjectData.addTile(Type);
-		}
-
-		public string GetSignText()
-		{
-			return Main.sign[Sign.ReadSign(TileI, TileJ)].text;
-		}
-
-		public void SetSignText(string input)
-		{
-			Main.sign[Sign.ReadSign(TileI, TileJ)].text = input;
 		}
 
 		public override void PlaceInWorld(int i, int j, Item item)

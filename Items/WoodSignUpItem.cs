@@ -9,13 +9,8 @@ using Terraria.ModLoader;
 
 namespace MoreSigns.Items
 {
-	public class WoodSignUpItem : BaseSignItem<WoodSignUp>
+	public class WoodSignUpItem : BaseSignWoodItem<WoodSignUp>
 	{
-		public override void AddRecipes()
-		{
-			CreateRecipe()
-				.AddIngredient(ItemID.Sign, 1)
-				.Register();
-		}
+
 	}
 }

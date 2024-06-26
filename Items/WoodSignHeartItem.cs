@@ -9,7 +9,7 @@ using Terraria.ModLoader;
 
 namespace MoreSigns.Items
 {
-	public class WoodSignSwordItem : BaseSignWoodItem<WoodSignSword>
+	public class WoodSignHeartItem : BaseSignWoodItem<WoodSignHeart>
 	{
 
 	}

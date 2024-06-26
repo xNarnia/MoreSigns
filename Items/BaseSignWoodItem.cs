@@ -6,15 +6,16 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria;
 
 namespace MoreSigns.Items
 {
-	public class DirtSignItem : BaseSignItem<DirtSign>
+	public abstract class BaseSignWoodItem<T> : BaseSignItem<T> where T : ModTile
 	{
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-				.AddIngredient(ItemID.DirtBlock, 6)
+				.AddIngredient(ItemID.Sign, 1)
 				.AddTile(TileID.WorkBenches)
 				.Register();
 		}

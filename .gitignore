@@ -8,7 +8,6 @@ references/touch
 references/*.dll
 references/*.xml
 references/touch
-TCR-TModLoader/TerrariaChatRelay/lib/*
 
 # User-specific files
 *.rsuser
@@ -16,7 +15,6 @@ TCR-TModLoader/TerrariaChatRelay/lib/*
 *.user
 *.userosscache
 *.sln.docstates
-TerrariaChatRelay-TShock.sln
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

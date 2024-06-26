@@ -45,12 +45,52 @@ Items: {
 	}
 
 	WoodSignSwordItem: {
-		// DisplayName: Wood Sign Sword Item
-		// Tooltip: ""
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
 	}
 
 	WoodSignUpItem: {
-		// DisplayName: Wood Sign Up Item
-		// Tooltip: ""
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignArrowItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignChestItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignHeartItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignHelmetItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignLegsItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignMagicItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignPetItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignShoesItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
 	}
 }
