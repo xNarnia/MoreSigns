@@ -1,5 +1,11 @@
 > More Signs! <
 
-Add brand new signs based on vanilla tiles to your game!
+This "furniture mod" adds brand new signs based on vanilla tiles to your game!
+The idea is to add signs to the already existing furniture sets. I've also added useful wooden signs to help you organize your chest rooms!
+
+Translation is important, so I've included translations for every supported language.
+I do this by using translation files I decompiled directly from the base game then splicing together translation keys.
+If there are any translation issues, please leave a comment and I'll try to correct it ASAP! 😊
+
 This mod is open-source. Check it out on GitHub!
 https://github.com/xNarnia/MoreSigns

@@ -95,42 +95,42 @@ Items: {
 	}
 
 	CrimtaneSignItem: {
-		DisplayName: Crimtane Sign Item
+		DisplayName: Crimtane Sign
 		Tooltip: ""
 	}
 
 	DemoniteSignItem: {
-		DisplayName: Demonite Sign Item
+		DisplayName: Demonite Sign
 		Tooltip: ""
 	}
 
 	SlimeSignItem: {
-		DisplayName: Slime Sign Item
+		DisplayName: Slime Sign
 		Tooltip: ""
 	}
 
 	FleshSignItem: {
-		DisplayName: Flesh Sign Item
+		DisplayName: Flesh Sign
 		Tooltip: ""
 	}
 
 	LeadSignItem: {
-		DisplayName: Lead Sign Item
+		DisplayName: Lead Sign
 		Tooltip: ""
 	}
 
 	PlatinumSignItem: {
-		DisplayName: Platinum Sign Item
+		DisplayName: Platinum Sign
 		Tooltip: ""
 	}
 
 	TinSignItem: {
-		DisplayName: Tin Sign Item
+		DisplayName: Tin Sign
 		Tooltip: ""
 	}
 
 	TungstenSignItem: {
-		DisplayName: Tungsten Sign Item
+		DisplayName: Tungsten Sign
 		Tooltip: ""
 	}
 }

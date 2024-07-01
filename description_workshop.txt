@@ -1,13 +1,18 @@
 [h1]More Signs![/h1]
-Add brand new signs based on vanilla tiles to your game!
-[b]Show support by subscribing, liking, and favoriting this mod![/b]
+This "furniture mod" adds brand new signs based on vanilla tiles to your game!
+The idea is to add signs to the already existing furniture sets. I've also added useful wooden signs to help you organize your chest rooms!
 
-This mod is open-source. Check it out!
+Translation is important, so I've included translations for every supported language.
+I do this by using translation files I decompiled directly from the base game then splicing together translation keys.
+If there are any translation issues, please leave a comment and I'll try to correct it ASAP! 😊
+
+This mod is open-source. You can use it to make your own signs for your mod!
 * [url=https://discord.gg/xAQGT4VetN]Discord Support Server[/url]
 * [url=https://github.com/xNarnia/MoreSigns]Source Code[/url]
 
 Credits:
 - cz43: He created the Iron Sign. Used as a base for recolors for other metal signs. Thanks!
+- jopojelly: Big help with Sign anchors and ExampleSign code
 
-[img]https://imgur.com/PCWKR81.gif[/img]
+[img]https://imgur.com/ELWpw8i.gif[/img]
 [img]https://imgur.com/9pKjhav.png[/img]

@@ -11,7 +11,7 @@ using Terraria.Localization;
 
 namespace MoreSigns.Tiles
 {
-	public class FleshSign : BaseShinySign<FleshSignItem>
+	public class FleshSign : BaseSign<FleshSignItem>
 	{
 
 	}

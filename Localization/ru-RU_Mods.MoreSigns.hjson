@@ -110,27 +110,27 @@ Items: {
 	}
 
 	FleshSignItem: {
-		// DisplayName: Flesh Sign Item
-		// Tooltip: ""
+		DisplayName: Знак из плоти
+		Tooltip: ""
 	}
 
 	LeadSignItem: {
-		// DisplayName: Lead Sign Item
-		// Tooltip: ""
+		DisplayName: Свинцовый Знак
+		Tooltip: ""
 	}
 
 	PlatinumSignItem: {
-		// DisplayName: Platinum Sign Item
-		// Tooltip: ""
+		DisplayName: Platinum Знак
+		Tooltip: ""
 	}
 
 	TinSignItem: {
-		// DisplayName: Tin Sign Item
-		// Tooltip: ""
+		DisplayName: Платиновый Знак
+		Tooltip: ""
 	}
 
 	TungstenSignItem: {
-		// DisplayName: Tungsten Sign Item
-		// Tooltip: ""
+		DisplayName: Вольфрамовый Знак
+		Tooltip: ""
 	}
 }

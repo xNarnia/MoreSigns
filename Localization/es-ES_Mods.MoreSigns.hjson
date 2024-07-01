@@ -110,27 +110,27 @@ Items: {
 	}
 
 	FleshSignItem: {
-		// DisplayName: Flesh Sign Item
-		// Tooltip: ""
+		DisplayName: Cartel de carne
+		Tooltip: ""
 	}
 
 	LeadSignItem: {
-		// DisplayName: Lead Sign Item
-		// Tooltip: ""
+		DisplayName: Cartel de plomo
+		Tooltip: ""
 	}
 
 	PlatinumSignItem: {
-		// DisplayName: Platinum Sign Item
-		// Tooltip: ""
+		DisplayName: Cartel de platino
+		Tooltip: ""
 	}
 
 	TinSignItem: {
-		// DisplayName: Tin Sign Item
-		// Tooltip: ""
+		DisplayName: Cartel de estaño
+		Tooltip: ""
 	}
 
 	TungstenSignItem: {
-		// DisplayName: Tungsten Sign Item
-		// Tooltip: ""
+		DisplayName: Cartel de tungsteno
+		Tooltip: ""
 	}
 }

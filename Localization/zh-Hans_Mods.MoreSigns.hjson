@@ -110,27 +110,27 @@ Items: {
 	}
 
 	FleshSignItem: {
-		// DisplayName: Flesh Sign Item
-		// Tooltip: ""
+		DisplayName: 血肉标牌
+		Tooltip: ""
 	}
 
 	LeadSignItem: {
-		// DisplayName: Lead Sign Item
-		// Tooltip: ""
+		DisplayName: 铅标牌
+		Tooltip: ""
 	}
 
 	PlatinumSignItem: {
-		// DisplayName: Platinum Sign Item
-		// Tooltip: ""
+		DisplayName: 铂金标牌
+		Tooltip: ""
 	}
 
 	TinSignItem: {
-		// DisplayName: Tin Sign Item
-		// Tooltip: ""
+		DisplayName: 锡标牌
+		Tooltip: ""
 	}
 
 	TungstenSignItem: {
-		// DisplayName: Tungsten Sign Item
-		// Tooltip: ""
+		DisplayName: 钨标牌
+		Tooltip: ""
 	}
 }

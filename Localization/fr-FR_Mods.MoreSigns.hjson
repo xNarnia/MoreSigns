@@ -110,27 +110,27 @@ Items: {
 	}
 
 	FleshSignItem: {
-		// DisplayName: Flesh Sign Item
-		// Tooltip: ""
+		DisplayName: Panneau en chair
+		Tooltip: ""
 	}
 
 	LeadSignItem: {
-		// DisplayName: Lead Sign Item
-		// Tooltip: ""
+		DisplayName: Panneau en plomb
+		Tooltip: ""
 	}
 
 	PlatinumSignItem: {
-		// DisplayName: Platinum Sign Item
-		// Tooltip: ""
+		DisplayName: Panneau en platine
+		Tooltip: ""
 	}
 
 	TinSignItem: {
-		// DisplayName: Tin Sign Item
-		// Tooltip: ""
+		DisplayName: Panneau en étain
+		Tooltip: ""
 	}
 
 	TungstenSignItem: {
-		// DisplayName: Tungsten Sign Item
-		// Tooltip: ""
+		DisplayName: Panneau en tungstène
+		Tooltip: ""
 	}
 }
