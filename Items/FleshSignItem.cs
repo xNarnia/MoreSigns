@@ -9,12 +9,12 @@ using Terraria.ModLoader;
 
 namespace MoreSigns.Items
 {
-	public class CactusSignItem : BaseSignItem<CactusSign>
+	public class FleshSignItem : BaseSignItem<FleshSign>
 	{
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-				.AddIngredient(ItemID.Cactus, 6)
+				.AddIngredient(ItemID.FleshBlock, 6)
 				.AddTile(TileID.WorkBenches)
 				.Register();
 		}

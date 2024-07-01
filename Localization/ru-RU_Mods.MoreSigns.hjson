@@ -93,4 +93,44 @@ Items: {
 		DisplayName: "{$ItemName.Sign}"
 		Tooltip: ""
 	}
+
+	CrimtaneSignItem: {
+		DisplayName: Кримтановый Знак
+		Tooltip: ""
+	}
+
+	DemoniteSignItem: {
+		DisplayName: Демонитовый Знак
+		Tooltip: ""
+	}
+
+	SlimeSignItem: {
+		DisplayName: Гелевый Знак
+		Tooltip: ""
+	}
+
+	FleshSignItem: {
+		// DisplayName: Flesh Sign Item
+		// Tooltip: ""
+	}
+
+	LeadSignItem: {
+		// DisplayName: Lead Sign Item
+		// Tooltip: ""
+	}
+
+	PlatinumSignItem: {
+		// DisplayName: Platinum Sign Item
+		// Tooltip: ""
+	}
+
+	TinSignItem: {
+		// DisplayName: Tin Sign Item
+		// Tooltip: ""
+	}
+
+	TungstenSignItem: {
+		// DisplayName: Tungsten Sign Item
+		// Tooltip: ""
+	}
 }

@@ -9,13 +9,13 @@ using Terraria.ModLoader;
 
 namespace MoreSigns.Items
 {
-	public class CactusSignItem : BaseSignItem<CactusSign>
+	public class PlatinumSignItem : BaseSignItem<PlatinumSign>
 	{
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-				.AddIngredient(ItemID.Cactus, 6)
-				.AddTile(TileID.WorkBenches)
+				.AddIngredient(ItemID.PlatinumBar, 2)
+				.AddTile(TileID.Anvils)
 				.Register();
 		}
 	}

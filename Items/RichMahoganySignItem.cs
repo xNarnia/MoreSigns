@@ -15,6 +15,7 @@ namespace MoreSigns.Items
 		{
 			CreateRecipe()
 				.AddIngredient(ItemID.RichMahogany, 6)
+				.AddTile(TileID.WorkBenches)
 				.Register();
 		}
 	}

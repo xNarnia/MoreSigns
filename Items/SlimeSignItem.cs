@@ -4,17 +4,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace MoreSigns.Items
 {
-	public class CactusSignItem : BaseSignItem<CactusSign>
+	public class SlimeSignItem : BaseSignItem<SlimeSign>
 	{
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-				.AddIngredient(ItemID.Cactus, 6)
+				.AddIngredient(ItemID.Gel, 6)
 				.AddTile(TileID.WorkBenches)
 				.Register();
 		}

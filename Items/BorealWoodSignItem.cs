@@ -15,6 +15,7 @@ namespace MoreSigns.Items
 		{
 			CreateRecipe()
 				.AddIngredient(ItemID.BorealWood, 6)
+				.AddTile(TileID.WorkBenches)
 				.Register();
 		}
 	}

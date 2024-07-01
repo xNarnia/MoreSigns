@@ -16,7 +16,6 @@ namespace MoreSigns.Tiles
 			base.SetStaticDefaults();
 			Main.tileShine[Type] = 575;
 			DustType = 84;
-			HitSound = SoundID.Tink;
 		}
 	}
 }
