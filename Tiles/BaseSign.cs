@@ -38,10 +38,12 @@ namespace MoreSigns.Tiles
 
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
 			TileObjectData.newTile.StyleHorizontal = true;
-			TileObjectData.newTile.StyleMultiplier = 5; 
+			TileObjectData.newTile.StyleMultiplier = 5;
+			TileObjectData.newTile.CoordinateHeights = new int[] { 16, 18 };
 			TileObjectData.newTile.AnchorBottom = AnchorData.Empty; 
 
 			AnchorData SolidOrSolidSideAnchor2TilesLong = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide, 2, 0);
+			AnchorData SolidOrSolidSideOrTreeAnchor2TilesLong = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide | AnchorType.Tree, 2, 0);
 
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
 			TileObjectData.newAlternate.AnchorBottom = new AnchorData(AnchorType.SolidTile | AnchorType.SolidWithTop | AnchorType.Table | AnchorType.SolidSide, 2, 0); ;
@@ -50,16 +52,17 @@ namespace MoreSigns.Tiles
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
 			TileObjectData.newAlternate.Origin = Point16.Zero;
 			TileObjectData.newAlternate.AnchorTop = SolidOrSolidSideAnchor2TilesLong;
+			TileObjectData.newAlternate.DrawYOffset = -2;
 			TileObjectData.addAlternate(1);
 
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
 			TileObjectData.newAlternate.Origin = Point16.Zero;
-			TileObjectData.newAlternate.AnchorLeft = SolidOrSolidSideAnchor2TilesLong;
+			TileObjectData.newAlternate.AnchorLeft = SolidOrSolidSideOrTreeAnchor2TilesLong;
 			TileObjectData.addAlternate(2);
 
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
 			TileObjectData.newAlternate.Origin = new Point16(1, 0);
-			TileObjectData.newAlternate.AnchorRight = SolidOrSolidSideAnchor2TilesLong;
+			TileObjectData.newAlternate.AnchorRight = SolidOrSolidSideOrTreeAnchor2TilesLong;
 			TileObjectData.addAlternate(3);
 
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
@@ -69,6 +72,16 @@ namespace MoreSigns.Tiles
 
 			TileObjectData.newTile.AnchorBottom = SolidOrSolidSideAnchor2TilesLong; 
 			TileObjectData.addTile(Type);
+		}
+
+		public override void SetDrawPositions(int i, int j, ref int width, ref int offsetY, ref int height, ref short tileFrameX, ref short tileFrameY)
+		{
+			if (tileFrameX == 36 || tileFrameX == 54)
+			{
+				offsetY = -2;
+			}
+
+			base.SetDrawPositions(i, j, ref width, ref offsetY, ref height, ref tileFrameX, ref tileFrameY);
 		}
 
 		public override void PlaceInWorld(int i, int j, Item item)
