@@ -42,7 +42,8 @@ namespace MoreSigns.Tiles
 			TileObjectData.newTile.AnchorBottom = AnchorData.Empty; 
 
 			AnchorData SolidOrSolidSideAnchor2TilesLong = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide, 2, 0);
-
+			AnchorData SolidOrSolidSideAnchorOrTree2TilesLong = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide | AnchorType.Tree, 2, 0);
+			
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
 			TileObjectData.newAlternate.AnchorBottom = new AnchorData(AnchorType.SolidTile | AnchorType.SolidWithTop | AnchorType.Table | AnchorType.SolidSide, 2, 0); ;
 			TileObjectData.addAlternate(0); // Due to a bug in TileLoader.CheckModTile, we need a separate alternate for the normal placement
@@ -54,12 +55,12 @@ namespace MoreSigns.Tiles
 
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
 			TileObjectData.newAlternate.Origin = Point16.Zero;
-			TileObjectData.newAlternate.AnchorLeft = SolidOrSolidSideAnchor2TilesLong;
+			TileObjectData.newAlternate.AnchorLeft = SolidOrSolidSideAnchorOrTree2TilesLong;
 			TileObjectData.addAlternate(2);
 
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
 			TileObjectData.newAlternate.Origin = new Point16(1, 0);
-			TileObjectData.newAlternate.AnchorRight = SolidOrSolidSideAnchor2TilesLong;
+			TileObjectData.newAlternate.AnchorRight = SolidOrSolidSideAnchorOrTree2TilesLong;
 			TileObjectData.addAlternate(3);
 
 			TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);

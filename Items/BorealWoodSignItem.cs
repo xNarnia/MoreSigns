@@ -11,7 +11,7 @@ namespace MoreSigns.Items
 {
 	public class BorealWoodSignItem : BaseSignItem<BorealWoodSign>
 	{
-		public override void AddRecipes()
+        public override void AddRecipes()
 		{
 			CreateRecipe()
 				.AddIngredient(ItemID.BorealWood, 6)
