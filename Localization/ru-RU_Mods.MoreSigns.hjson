@@ -1,46 +1,46 @@
 Items: {
 	BorealWoodSignItem: {
-		DisplayName: заснеженной древесины Знак
+		DisplayName: Табличка из северного дерева
 		Tooltip: ""
 	}
 
 	CopperSignItem: {
-		DisplayName: Медный Знак
+		DisplayName: Медная табличка
 		Tooltip: ""
 	}
 
 	GoldSignItem: {
-		DisplayName: Золотой Знак
+		DisplayName: Золотая табличка
 		Tooltip: ""
 	}
 
 	IronSignItem: {
-		DisplayName: Железный Знак
+		DisplayName: Железная табличка
 		Tooltip: ""
 	}
 
 	PalmWoodSignItem: {
-		DisplayName: пальмовой древесины Знак
+		DisplayName: Табличка из пальмового дерева
 		Tooltip: ""
 	}
 
 	RichMahoganySignItem: {
-		DisplayName: красной древесины Знак
+		DisplayName: Табличка из красного дерева
 		Tooltip: ""
 	}
 
 	SilverSignItem: {
-		DisplayName: Серебряный Знак
+		DisplayName: Серебряная табличка
 		Tooltip: ""
 	}
 
 	CactusSignItem: {
-		DisplayName: Кактусовый Знак
+		DisplayName: Кактусовая табличка
 		Tooltip: ""
 	}
 
 	DirtSignItem: {
-		DisplayName: Земля Знак
+		DisplayName: Земляная табличка
 		Tooltip: ""
 	}
 
@@ -95,42 +95,42 @@ Items: {
 	}
 
 	CrimtaneSignItem: {
-		DisplayName: Кримтановый Знак
+		DisplayName: Багротановая табличка
 		Tooltip: ""
 	}
 
 	DemoniteSignItem: {
-		DisplayName: Демонитовый Знак
+		DisplayName: Демонитовая табличка
 		Tooltip: ""
 	}
 
 	SlimeSignItem: {
-		DisplayName: Гелевый Знак
+		DisplayName: Гелевая табличка
 		Tooltip: ""
 	}
 
 	FleshSignItem: {
-		DisplayName: Знак из плоти
+		DisplayName: Табличка из плоти
 		Tooltip: ""
 	}
 
 	LeadSignItem: {
-		DisplayName: Свинцовый Знак
+		DisplayName: Свинцовая табличка
 		Tooltip: ""
 	}
 
 	PlatinumSignItem: {
-		DisplayName: Platinum Знак
+		DisplayName: Платиновая табличка
 		Tooltip: ""
 	}
 
 	TinSignItem: {
-		DisplayName: Платиновый Знак
+		DisplayName: Оловяная табличка
 		Tooltip: ""
 	}
 
 	TungstenSignItem: {
-		DisplayName: Вольфрамовый Знак
+		DisplayName: Вольфрамовая табличка
 		Tooltip: ""
 	}
 }
