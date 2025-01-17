@@ -22,3 +22,8 @@ This mod is open-source. You can use it to make your own signs for your mod!
 
 [b]Changelog[/b]
 - [0.2.9.1] - Updated Russian localization (thanks nexorchik)
+- [0.2.8] - Fix sign placing bug
+- [0.2.7] 
+* Add new signs: Tin, Lead, Tungsten, Platinum, Flesh
+* Adjust signs: Rich Mahogany, Demonite, Crimtane
+* Note: Demonite / Crimtane signs glow faintly in the dark
