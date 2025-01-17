@@ -21,6 +21,7 @@ This mod is open-source. You can use it to make your own signs for your mod!
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-WoodSign.png[/img]
 
 [b]Changelog[/b]
+- [0.2.9.2] - Slime sign is now crafted at the Solidifier instead of Workbench (thanks Snaxa~❤)
 - [0.2.9.1] - Updated Russian localization (thanks nexorchik)
 - [0.2.8] - Fix sign placing bug
 - [0.2.7] 
