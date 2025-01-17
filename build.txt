@@ -1,6 +1,6 @@
 displayName = More Signs
 author = Narnia
-version = 0.2.9
+version = 0.2.9.1
 homepage = https://steamcommunity.com/sharedfiles/filedetails/?id=3275032535
 includeSource = true
 includePDB = true
