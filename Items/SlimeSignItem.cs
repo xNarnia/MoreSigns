@@ -16,7 +16,7 @@ namespace MoreSigns.Items
 		{
 			CreateRecipe()
 				.AddIngredient(ItemID.Gel, 6)
-				.AddTile(TileID.WorkBenches)
+				.AddTile(TileID.Solidifier)
 				.Register();
 		}
 	}
