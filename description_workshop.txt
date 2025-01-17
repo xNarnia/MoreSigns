@@ -15,8 +15,7 @@ This mod is open-source. You can use it to make your own signs for your mod!
 - [b]cz43:[/b] He created the Iron Sign. Used as a base for recolors for other metal signs. Thanks!
 - [b]jopojelly:[/b] Big help with Sign anchors and ExampleSign code
 
-[img]https://imgur.com/mYqBGM8.gif[/img]
-[img]https://imgur.com/SX3CzwK.png[/img]
-[img]https://imgur.com/gYHABVQ.gif[/img]
-[img]https://imgur.com/U3m1Uke.gif[/img]
-[quote=tModLoader]Developed By Narnia[/quote]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-Gallery.gif[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-Hang.gif[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-UseCase.gif[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-WoodSign.png[/img]
