@@ -133,4 +133,174 @@ Items: {
 		DisplayName: Aviso de Tungstênio
 		Tooltip: ""
 	}
+
+	BambooSignItem: {
+		// DisplayName: Bamboo Sign
+		// Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	MartianHoloSignItem: {
+		// DisplayName: Martian Holo Sign
+		// Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	ObsidianSignItem: {
+		// DisplayName: Obsidian Sign
+		// Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	PumpkinSignItem: {
+		// DisplayName: Pumpkin Sign
+		// Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	SpiderSignItem: {
+		// DisplayName: Spider Sign
+		// Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	DynastySignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+		// DisplayName: Dynasty Sign Item
+	}
+
+	LesionSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+		// DisplayName: Lesion Sign Item
+	}
+
+	MushroomSignItem: {
+		// DisplayName: Mushroom Sign
+		// Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	NebulaSignItem: {
+		// DisplayName: Nebula Sign
+		// Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	SolarSignItem: {
+		// DisplayName: Solar Sign
+		// Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	StardustSignItem: {
+		// DisplayName: Stardust Sign
+		// Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	VortexSignItem: {
+		// DisplayName: Vortex Sign
+		// Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	GlassSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Glass Sign Item
+	}
+
+	LihzahrdSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Lihzahrd Sign Item
+	}
+
+	SkywareSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Skyware Sign Item
+	}
+
+	SpookySignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Spooky Sign Item
+	}
+
+	SteampunkSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Steampunk Sign Item
+	}
+
+	AshWoodSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Ash Wood Sign Item
+	}
+
+	BalloonSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Balloon Sign Item
+	}
+
+	BoneSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Bone Sign Item
+	}
+
+	PearlwoodSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Pearlwood Sign Item
+	}
+
+	ReefSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by qAngel]"
+		// DisplayName: Reef Sign Item
+	}
+
+	CloudSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
+		// DisplayName: Cloud Sign Item
+	}
+
+	CrystalSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
+		// DisplayName: Crystal Sign Item
+	}
+
+	SandstoneSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
+		// DisplayName: Sandstone Sign Item
+	}
+
+	EbonwoodSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+		// DisplayName: Ebonwood Sign Item
+	}
+
+	FrozenSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+		// DisplayName: Frozen Sign Item
+	}
+
+	GraniteSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+		// DisplayName: Granite Sign Item
+	}
+
+	HoneySignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+		// DisplayName: Honey Sign Item
+	}
+
+	ShadewoodSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+		// DisplayName: Shadewood Sign Item
+	}
+
+	BlueDungeonSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Vovosch]"
+		// DisplayName: Blue Dungeon Sign Item
+	}
+
+	GreenDungeonSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Vovosch]"
+		// DisplayName: Green Dungeon Sign Item
+	}
+
+	PinkDungeonSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Vovosch]"
+		// DisplayName: Pink Dungeon Sign Item
+	}
+
+	MarbleSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Vovosch]"
+		// DisplayName: Marble Sign Item
+	}
 }
