@@ -25,6 +25,11 @@ This mod is open-source. You can use it to make your own signs for your mod!
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-Hang.gif[/img]
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-UseCase.gif[/img]
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-WoodSign.png[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/Fuffles.png[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/qAngel.png[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/GabeHasWon.png[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/Omnomnomnom.png[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/Vovosch.png[/img]
 
 [b]Changelog[/b]
 - [0.9.3.1]
