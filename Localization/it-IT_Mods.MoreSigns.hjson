@@ -311,6 +311,6 @@ Items: {
 
 	ChristmasSignItem: {
 		DisplayName: "{$ItemName.Sign}"
-		Tooltip: ""
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
 	}
 }
