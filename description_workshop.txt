@@ -12,6 +12,12 @@ This mod is open-source. You can use it to make your own signs for your mod!
 * [url=https://github.com/xNarnia/MoreSigns]Source Code[/url]
 
 [h1] Credits: [/h1]
+- [b]Fuffles:[/b] Christmas, Dynasty, Lesion, Martian Holo, Obsidian, Pumpkin, Spider
+- [b]qAngel:[/b] Ash Wood, Balloon, Bone, Glass, Lihzahrd, Pearlwood, Reef, Skyware, Steampunk, Spooky
+- [b]GabeHasWon:[/b] Mushroom, Nebula, Solar, Stardust, Vortex
+- [b]Omnomnomnom:[/b] Cloud, Crystal, Sandstone, Snow
+- [b]xBirdie:[/b] Frozen, Granite, Honey
+- [b]Vovosch:[/b] Marble, Blue/Pink/Green Dungeon
 - [b]cz43:[/b] He created the Iron Sign. Used as a base for recolors for other metal signs. Thanks!
 - [b]jopojelly:[/b] Big help with Sign anchors and ExampleSign code
 
@@ -21,6 +27,10 @@ This mod is open-source. You can use it to make your own signs for your mod!
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-WoodSign.png[/img]
 
 [b]Changelog[/b]
+- [0.9.3.1]
+* Humungous update adding 37 signs for every single Vanilla furniture set
+* * Thank you to everyone who made this possible! - Fuffles, qAngel, GabeHasWon, Omnomnomnom, xBirdie, Vovosch
+* * Added Signs: Ash Wood, Balloon, Bamboo, Blue/Green/Pink Dungeon, Bone, Christmas, Cloud, Crystal, Dynasty, Frozen, Glass, Granite, Honey, Lesion, Lihzahrd, Marble, Martian Holo, Mushroom, Nebula/Stardust/Solar/Vortex, Obsidian, Pearlwood, Pumpkin, Reef, Sandstone, Skyware, Steampunk, Snow, Spider, Spooky
 - [0.2.9.2]
 * Slime sign is now crafted at the Solidifier instead of Workbench (thanks Snaxa~❤)
 * Update Russian localization (thanks nexorchik)
