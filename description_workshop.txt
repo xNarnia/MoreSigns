@@ -22,15 +22,10 @@ This mod is open-source. You can use it to make your own signs for your mod!
 - [b]cz43:[/b] He created the Iron Sign. Used as a base for recolors for other metal signs. Thanks!
 - [b]jopojelly:[/b] Big help with Sign anchors and ExampleSign code
 
-[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-Gallery.gif[/img]
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-Hang.gif[/img]
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-UseCase.gif[/img]
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-WoodSign.png[/img]
-[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/Fuffles.png[/img]
-[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/qAngel.png[/img]
-[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/GabeHasWon.png[/img]
-[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/Omnomnomnom.png[/img]
-[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/Vovosch.png[/img]
+[img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-Gallery.gif[/img]
 
 [b]Changelog[/b]
 - [0.9.4] Meteorite Sign, New Mod Icon (Thanks This is Many)
