@@ -259,6 +259,11 @@ Items: {
 		// DisplayName: Sandstone Sign Item
 	}
 
+	SnowSignItem: {
+		// Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
+		// DisplayName: Snow Sign Item
+	}
+
 	EbonwoodSignItem: {
 		// Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 		// DisplayName: Ebonwood Sign Item
@@ -302,5 +307,10 @@ Items: {
 	MarbleSignItem: {
 		// Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 		// DisplayName: Marble Sign Item
+	}
+
+	ChristmasSignItem: {
+		// DisplayName: Christmas Sign Item
+		// Tooltip: ""
 	}
 }
