@@ -313,4 +313,9 @@ Items: {
 		DisplayName: "{$ItemName.Sign}"
 		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
 	}
+
+	MeteoriteSignItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by This is Many]"
+	}
 }
