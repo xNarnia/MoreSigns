@@ -16,6 +16,7 @@ This mod is open-source. You can use it to make your own signs for your mod!
 - [b]qAngel:[/b] Ash Wood, Balloon, Bone, Glass, Lihzahrd, Pearlwood, Reef, Skyware, Steampunk, Spooky
 - [b]GabeHasWon:[/b] Mushroom, Nebula, Solar, Stardust, Vortex
 - [b]Omnomnomnom:[/b] Cloud, Crystal, Sandstone, Snow
+- [b]This is Many:[/b] Meteorite, Mod Icon
 - [b]xBirdie:[/b] Frozen, Granite, Honey
 - [b]Vovosch:[/b] Marble, Blue/Pink/Green Dungeon
 - [b]cz43:[/b] He created the Iron Sign. Used as a base for recolors for other metal signs. Thanks!
@@ -32,6 +33,7 @@ This mod is open-source. You can use it to make your own signs for your mod!
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/Vovosch.png[/img]
 
 [b]Changelog[/b]
+- [0.9.4] Meteorite Sign, New Mod Icon (Thanks This is Many)
 - [0.9.3.1]
 * Humungous update adding 37 signs for every single Vanilla furniture set
 * * Thank you to everyone who made this possible! - Fuffles, qAngel, GabeHasWon, Omnomnomnom, xBirdie, Vovosch
@@ -39,7 +41,7 @@ This mod is open-source. You can use it to make your own signs for your mod!
 - [0.2.9.2]
 * Slime sign is now crafted at the Solidifier instead of Workbench (thanks Snaxa~❤)
 * Update Russian localization (thanks nexorchik)
-- [0.2.8] - Fix sign placing bug
+- [0.2.8] Fix sign placing bug
 - [0.2.7] 
 * Add new signs: Tin, Lead, Tungsten, Platinum, Flesh
 * Adjust signs: Rich Mahogany, Demonite, Crimtane
