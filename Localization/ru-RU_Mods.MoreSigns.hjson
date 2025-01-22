@@ -310,7 +310,7 @@ Items: {
 	}
 
 	ChristmasSignItem: {
-		DisplayName: Рождественская табличка
+		DisplayName: Сосновая табличка
 		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
