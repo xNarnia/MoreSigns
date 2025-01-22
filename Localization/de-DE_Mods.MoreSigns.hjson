@@ -160,13 +160,13 @@ Items: {
 	}
 
 	DynastySignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
 	}
 
 	LesionSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
 	}
 
 	MushroomSignItem: {
@@ -195,118 +195,118 @@ Items: {
 	}
 
 	GlassSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	LihzahrdSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	SkywareSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	SpookySignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	SteampunkSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	AshWoodSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	BalloonSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	BoneSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	PearlwoodSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	ReefSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
 	}
 
 	CloudSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
 	}
 
 	CrystalSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
 	}
 
 	SandstoneSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
 	}
 
 	SnowSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
 	}
 
 	EbonwoodSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 	}
 
 	FrozenSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 	}
 
 	GraniteSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 	}
 
 	HoneySignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 	}
 
 	ShadewoodSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
 	}
 
 	BlueDungeonSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 	}
 
 	GreenDungeonSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 	}
 
 	PinkDungeonSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 	}
 
 	MarbleSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 		DisplayName: "{$ItemName.Sign}"
+		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
 	}
 
 	ChristmasSignItem: {
