@@ -45,52 +45,52 @@ Items: {
 	}
 
 	WoodSignSwordItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Меч»
 		Tooltip: ""
 	}
 
 	WoodSignUpItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Вверх»
 		Tooltip: ""
 	}
 
 	WoodSignArrowItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Стрела»
 		Tooltip: ""
 	}
 
 	WoodSignChestItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Нагрудник»
 		Tooltip: ""
 	}
 
 	WoodSignHeartItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Средце»
 		Tooltip: ""
 	}
 
 	WoodSignHelmetItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Шлем»
 		Tooltip: ""
 	}
 
 	WoodSignLegsItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Поножи»
 		Tooltip: ""
 	}
 
 	WoodSignMagicItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Магия»
 		Tooltip: ""
 	}
 
 	WoodSignPetItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Питомец»
 		Tooltip: ""
 	}
 
 	WoodSignShoesItem: {
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка «Ботинки»
 		Tooltip: ""
 	}
 
@@ -135,187 +135,187 @@ Items: {
 	}
 
 	BambooSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+		DisplayName: Бамбуковая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
 	MartianHoloSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+		DisplayName: Марсианская голографическая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
 	ObsidianSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+		DisplayName: Обсидиановая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
 	PumpkinSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+		DisplayName: Тыквенная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
 	SpiderSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+		DisplayName: Паучья табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
 	DynastySignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Восточная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
 	LesionSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка из гнили
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
 	MushroomSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+		DisplayName: Грибная табличка
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
 	}
 
 	NebulaSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+		DisplayName: Табличка туманности
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
 	}
 
 	SolarSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+		DisplayName: Солнечная табличка
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
 	}
 
 	StardustSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+		DisplayName: Табличка звёздной пыли
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
 	}
 
 	VortexSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+		DisplayName: Вихревая табличка
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
 	}
 
 	GlassSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Стеклянная табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	LihzahrdSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Ящщеровая табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	SkywareSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Заоблачная табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	SpookySignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Жуткая табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	SteampunkSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Паромеханическая табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	AshWoodSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка из пепельного дерева
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	BalloonSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Надувная табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	BoneSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Костяная табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	PearlwoodSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка из жемчужного дерева
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	ReefSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by qAngel]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Рифовая табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
 	}
 
 	CloudSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка из облака
+		Tooltip: "[c/00FFFF:Спрайт от Omnomnomnom]"
 	}
 
 	CrystalSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Кристальная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Omnomnomnom]"
 	}
 
 	SandstoneSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Песчаниковая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Omnomnomnom]"
 	}
 
 	SnowSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Снежная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Omnomnomnom]"
 	}
 
 	EbonwoodSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка из эбонитового дерева
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
 	}
 
 	FrozenSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Замороженная табличка
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
 	}
 
 	GraniteSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Гранитная табличка
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
 	}
 
 	HoneySignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Медовая табличка
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
 	}
 
 	ShadewoodSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка из мрачного дерева
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
 	}
 
 	BlueDungeonSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка синей Темницы
+		Tooltip: "[c/00FFFF:Спрайт от Vovosch]"
 	}
 
 	GreenDungeonSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка зелёной Темницы
+		Tooltip: "[c/00FFFF:Спрайт от Vovosch]"
 	}
 
 	PinkDungeonSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Табличка розовой Темницы
+		Tooltip: "[c/00FFFF:Спрайт от Vovosch]"
 	}
 
 	MarbleSignItem: {
-		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
-		DisplayName: "{$ItemName.Sign}"
+		DisplayName: Мраморная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Vovosch]"
 	}
 
 	ChristmasSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+		DisplayName: Сосновая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
 	}
 
 	MeteoriteSignItem: {
-		DisplayName: "{$ItemName.Sign}"
-		Tooltip: "[c/00FFFF:Sprite by This is Many]"
+		DisplayName: Метеоритная табличка
+		Tooltip: "[c/00FFFF:Спрайт от This is Many]"
 	}
 }
