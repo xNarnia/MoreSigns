@@ -28,6 +28,7 @@ This mod is open-source. You can use it to make your own signs for your mod!
 [img]https://raw.githubusercontent.com/xNarnia/Gif-Repo/refs/heads/main/MoreSigns/MoreSigns-Gallery.gif[/img]
 
 [b]Changelog[/b]
+- [0.9.4.1] Updated RU translations (thanks nexorchik)
 - [0.9.4] Meteorite Sign, New Mod Icon (Thanks This is Many)
 - [0.9.3.1]
 * Humungous update adding 37 signs for every single Vanilla furniture set
